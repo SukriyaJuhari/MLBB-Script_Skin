@@ -1,0 +1,152 @@
+    :root {
+      --bg: #ffffff;
+      --accent: #6ee7b7;
+      --accent-2: #60a5fa;
+      --text: #022;
+    }
+    
+    body {
+      background: var(--bg);
+      font-family: "Poppins", sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      color: var(--text);
+    }
+    
+    .container {
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      max-width: 80%;
+      margin: 25px auto;
+      background: radial-gradient(800px 300px at 10% 10%, rgba(96, 165, 250, 0.06), transparent),
+        radial-gradient(700px 250px at 90% 90%, rgba(110, 231, 183, 0.04), transparent);
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+      padding: 25px;
+    }
+    
+    .head {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    
+    h2 {
+      margin: 0;
+      font-size: 18px;
+      line-height: 1.3;
+    }
+    
+    p.desc {
+      align-items: center;
+      justify-content: center;
+      margin: 10px;
+      color: #9aa4b2;
+      font-size: 13px;
+    }
+    
+    .card {
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      gap: 5px;
+      padding: 10px;
+      margin-right: 20px;
+      margin-left: 20px;
+      border-radius: 12px;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), transparent);
+      border: 2px solid rgba(0, 0, 0, 0.05);
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+      flex-wrap: wrap;
+    }
+    
+    .meta {
+      flex: 1;
+      text-align: center;
+    }
+    
+    .name {
+      font-weight: 600;
+      font-size: 16px;
+    }
+    
+    .sub {
+      color: #9aa4b2;
+      font-size: 12px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    
+    select {
+      margin: 5px;
+      padding: 5px 5px;
+      font-size: 12px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      font-weight: 600;
+      cursor: pointer;
+      text-align: center;
+    }
+    
+    select option {
+      font-size: 12px;
+      padding: 4px 6px;
+    }
+    
+    .btn {
+      text-align: center;
+      font-size: 12px;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 10px;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    
+    .download {
+      background: linear-gradient(90deg, var(--accent), var(--accent-2));
+      color: var(--text);
+      box-shadow: 0 8px 20px rgba(80, 160, 200, 0.15);
+      transition: transform 0.2s;
+      display: inline-block;
+    }
+    
+    .download:hover {
+      transform: scale(1.05);
+    }
+    
+    .hero-icon {
+      width: 100px;
+      height: 150px;
+      border-radius: 10px;
+      background: transparent !important;
+      border: none !important;
+      box-shadow: none !important;
+    }
+    
+    .conver {
+      width: 60px;
+      height: 50px;
+      background: transparent !important;
+      border: none !important;
+      box-shadow: none !important;
+    }
+    
+    @media (max-width:600px) {
+      .card {
+        flex-direction: column;
+        align-items: stretch;
+      }
+    }
