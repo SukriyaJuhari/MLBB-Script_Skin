@@ -79,8 +79,9 @@ export default class dataFileLinks {
       //Fanny Script Skin
       "Fanny_Default=AttackOnTitan": "https://sfile.mobi/download/2137278/734426/9d2f4ddc0bca5b28b50ef6fc3bc175c8/revamp-fanny-attack-on-titan-default.zip?is=b30323ab2b1e46bbf7e8beeaefe545da&k=a1ba6ef9b52b4276de7a675939f3a742",
       "Fanny_Elite=AttackOnTitan": "https://sfile.mobi/download/2137279/734426/5328ed6b9aa49b77ae6103b0a8l/revamp-fanny-attack-on-titan-elite.zip?is=6734e6ec8019b3378a82d7a5d6269e02&k=fd33b40bc0fa27fe8d23ab06f6b46a7a",
-      "Fanny_ImperialWarrior=AttackOnTitan.": "https://sfile.mobi/download/2137288/734426/4ee5ba584f9d828c9789ac3066e4104a/revamp-fanny-attack-on-titan-imperial-warrior.zip?is=f540e20b0f463ed5e210c29258a2f4fa&k=4032b241b6b425f3e688214ae1478195",
-      
+      "Fanny_ImperialWarrior=AttackOnTitan": "https://sfile.mobi/download/2137288/734426/4ee5ba584f9d828c9789ac3066e4104a/revamp-fanny-attack-on-titan-imperial-warrior.zip?is=f540e20b0f463ed5e210c29258a2f4fa&k=4032b241b6b425f3e688214ae1478195",
+      "Fanny_lightborn=AttackOnTitan": "https://sfile.mobi/download/2137280/734426/5c76d211156e8245efbdf7342a6d0ad5/revamp-fanny-attack-on-titan-lightborn.zip?is=dd14e5da52148e23ed3ce21b9273ea80&k=b33e44466965515d59de4465aea57020",
+
       //####################################################################################################################
       //####################################################################################################################
       //Granger_Legend
