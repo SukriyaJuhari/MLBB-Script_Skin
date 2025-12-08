@@ -266,11 +266,12 @@ setTimeout(() => {
   <script type="module">
     // 🧠 Daftar file download berdasarkan kode "file="
     //debugging
-    //import dataFileLinks from "/dataFileLinks.js";
-    import dataFileLinks from "https://cdn.jsdelivr.net/gh/SukriyaJuhari/MLBB-Script_Skin@dataFileLinks.js";
+    import dataFileLinks from "/JS/dataFileLinks.js";
+    //import dataFileLinks from "https://cdn.jsdelivr.net/gh/SukriyaJuhari/MLBB-Script_Skin@dataFileLinks.js";
+    
     const fileLink = new dataFileLinks();
     const fileLinks = fileLink.link;
-    
+    //console.log(fileLink);
     // Ambil parameter ?file= dari URL
     const urlParams = new URLSearchParams(window.location.search);
     const fileKey = urlParams.get('file');
@@ -293,7 +294,12 @@ setTimeout(() => {
       document.querySelector(".fileName").innerHTML = `
     Menyiapkan file ${fileKey}.zip`;
       
-      let seconds = 20;
+
+      //let seconds = 20;
+      let seconds = 1;//debugging
+      //let waitTime = 8; //time Tombo download 
+      let waitTime = 1; //debugging
+      
       
       const countdown = setInterval(() => {
         seconds--;
@@ -317,8 +323,6 @@ setTimeout(() => {
         
       }, 1000);
       
-      
-      let waitTime = 8; //time Tombo download 
       
       // Logika klik tombol
       btn.addEventListener("click", function(e) {
