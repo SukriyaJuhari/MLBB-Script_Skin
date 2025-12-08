@@ -83,7 +83,12 @@ export default class dataFileLinks {
       "Fanny_lightborn=AttackOnTitan":"https://sfile.mobi/download/2137280/734426/5c76d211156e8245efbdf7342a6d0ad5/revamp-fanny-attack-on-titan-lightborn.zip?is=dd14e5da52148e23ed3ce21b9273ea80&k=b33e44466965515d59de4465aea57020",
       "Fanny_Season=AttackOnTitan": "https://sfile.mobi/download/2137285/734426/8fb3be59c023529a3455928e702cba45/revamp-fanny-attack-on-titan-season.zip?is=dd14e5da52148e23ed3ce21b9273ea80&k=396f929429b90b40f0d4dacada0e6ea0",
       "Fanny_Starlight=AttackOnTitan": "https://sfile.mobi/download/2137286/734426/3ae6702feac9179c325c8f512e66c9ee/revamp-fanny-attack-on-titan-starlight.zip?is=dd14e5da52148e23ed3ce21b9273ea80&k=cb2c9ec6873956f8102b9fdac39519e5",
-
+      "Fanny_Summer=AttackOnTitan": "https://sfile.mobi/download/2137287/734426/88276cf7703f1dc60288c2aaacf56505/revamp-fanny-attack-on-titan-summer.zip?is=dd14e5da52148e23ed3ce21b9273ea80&k=c7561f40a81e0bc43669074f5350ef84",
+      "Fanny_Christmas=AttackOnTitan": "https://sfile.mobi/download/2137277/734426/8044dd91dd47032583ba2607830e7e59/revamp-fanny-attack-on-titan-christmas.zip?is=dd14e5da52148e23ed3ce21b9273ea80&k=8b260eb9d0cdae6a8c83adae79b7e209",
+      "Fanny_Luckybox=AttackOnTitan": "https://sfile.mobi/download/2137282/734426/21a1a0d58864c576b1012f7d077335f8/revamp-fanny-attack-on-titan-luckybox.zip?is=9a345d4692ceae587a8cb748c3c4f387&k=e4115830b6bca6fe05032757bb77d3b4",
+      "Fanny_Aspirants=AttackOnTitan": "https://sfile.mobi/download/2137276/734426/5e09eabb2e9a2bbfe5fd212eed942ece/revamp-fanny-attack-on-titan-aspirants.zip?is=9a345d4692ceae587a8cb748c3c4f387&k=53ee45256ae17d70d5da87d70a70c3c5",
+      "Fanny_Valentine=AttackOnTitan": "https://sfile.mobi/download/2137289/734426/a1e8aeb359c8e0207f40b6e340b19796/revamp-fanny-attack-on-titan-valentine.zip?is=9a345d4692ceae587a8cb748c3c4f387&k=c292f9e9dbb6fa2e7da599a5cec3f3e3",
+      "Fanny_P.Ace=AttackOnTitan": "https://download5025.sfile.mobi/downloadfile/2137283/734426/be3f9ad63dc652f6033e7158c3955b2d/revamp-fanny-attack-on-titan-p.-ace.zip?k=de3626076da16df45f382ef85f8ea551",
       //####################################################################################################################
       //####################################################################################################################
       //Granger_Legend
