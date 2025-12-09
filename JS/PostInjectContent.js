@@ -23,7 +23,7 @@ export default class PostInjectContent {
         const selected = select.value;
         const selectedOption = rootData.options.find(opt => opt.value === selected);
         downloadBtn.href = `${rootData.baseDownloadUrl}=${rootData.nameHero}_${selected}=${rootData.skinKategor}`;
-        console.log(downloadBtn.href)
+        
         
         
         metaSize.innerText = selectedOption.size;
