@@ -66,10 +66,10 @@ export default class dataFileLinks {
       
       //####################################################################################################################
       //####################################################################################################################
-     
+      
       //Chou Script Skin
       
-      "Chou_Default=KOF": "https://drive.google.com/file/d/1zD43TNrxCIcuPc_6Vb_ErU_Ioj_DuCPK/view?usp=drivesdk", 
+      "Chou_Default=KOF": "https://drive.google.com/file/d/1zD43TNrxCIcuPc_6Vb_ErU_Ioj_DuCPK/view?usp=drivesdk",
       "Chou_Basic=KOF": "https://drive.google.com/file/d/1qKnnQDLoUCmVGQQBDCbZz-Ky6zYjeAza/view?usp=drivesdk",
       "Chou_Elite=KOF": "https://drive.google.com/file/d/1pbOYrvMhwFKk4PV7sYS6bIJasA69aJcK/view?usp=drivesdk",
       "Chou_Spacial=KOF": "https://drive.google.com/file/d/1ke9Tiv5hOz6aajLwIQ_ryqbgkpUzJRdA/view?usp=drivesdk",
@@ -80,7 +80,7 @@ export default class dataFileLinks {
       "Fanny_Default=AttackOnTitan": "https://sfile.mobi/download/2137278/734426/9d2f4ddc0bca5b28b50ef6fc3bc175c8/revamp-fanny-attack-on-titan-default.zip?is=b30323ab2b1e46bbf7e8beeaefe545da&k=a1ba6ef9b52b4276de7a675939f3a742",
       "Fanny_Elite=AttackOnTitan": "https://sfile.mobi/download/2137279/734426/5328ed6b9aa49b77ae6103b0a8l/revamp-fanny-attack-on-titan-elite.zip?is=6734e6ec8019b3378a82d7a5d6269e02&k=fd33b40bc0fa27fe8d23ab06f6b46a7a",
       "Fanny_ImperialWarrior=AttackOnTitan": "https://sfile.mobi/download/2137288/734426/4ee5ba584f9d828c9789ac3066e4104a/revamp-fanny-attack-on-titan-imperial-warrior.zip?is=f540e20b0f463ed5e210c29258a2f4fa&k=4032b241b6b425f3e688214ae1478195",
-      "Fanny_lightborn=AttackOnTitan":"https://sfile.mobi/download/2137280/734426/5c76d211156e8245efbdf7342a6d0ad5/revamp-fanny-attack-on-titan-lightborn.zip?is=dd14e5da52148e23ed3ce21b9273ea80&k=b33e44466965515d59de4465aea57020",
+      "Fanny_lightborn=AttackOnTitan": "https://sfile.mobi/download/2137280/734426/5c76d211156e8245efbdf7342a6d0ad5/revamp-fanny-attack-on-titan-lightborn.zip?is=dd14e5da52148e23ed3ce21b9273ea80&k=b33e44466965515d59de4465aea57020",
       "Fanny_Season=AttackOnTitan": "https://sfile.mobi/download/2137285/734426/8fb3be59c023529a3455928e702cba45/revamp-fanny-attack-on-titan-season.zip?is=dd14e5da52148e23ed3ce21b9273ea80&k=396f929429b90b40f0d4dacada0e6ea0",
       "Fanny_Starlight=AttackOnTitan": "https://sfile.mobi/download/2137286/734426/3ae6702feac9179c325c8f512e66c9ee/revamp-fanny-attack-on-titan-starlight.zip?is=dd14e5da52148e23ed3ce21b9273ea80&k=cb2c9ec6873956f8102b9fdac39519e5",
       "Fanny_Summer=AttackOnTitan": "https://sfile.mobi/download/2137287/734426/88276cf7703f1dc60288c2aaacf56505/revamp-fanny-attack-on-titan-summer.zip?is=dd14e5da52148e23ed3ce21b9273ea80&k=c7561f40a81e0bc43669074f5350ef84",
@@ -127,7 +127,24 @@ export default class dataFileLinks {
       
       //####################################################################################################################
       //####################################################################################################################
-     
+      //Layla
+      
+      "Layla_Default=legend-nexus-sea": "https:\/\/download5025.sfile.mobi\/downloadfile\/2120089\/734426\/ad1f3f68202faf4536a71daee2953fa1\/update-layla-legend-nexus-sea-default.zip?k=fe882e3ba17dbd4699a6ffc323db48b1 : https:\/\/sfile.mobi\/download\/2120089\/734426\/ad1f3f68202faf4536a71daee2953fa1\/update-layla-legend-nexus-sea-default.zip?is=06f8bad7a184ef5ea0367ef5839a9599&k=fe882e3ba17dbd4699a6ffc323db48b1",
+      "Layla_Basic=legend-nexus-sea": "https:\/\/sfile.mobi\/download\/2120083\/734426\/36dae9495e2d733ccb3ec73489e1d893\/update-layla-legend-nexus-sea-basic.zip?is=978897941ce1957f9b8e22621a6c78da&k=99ca76d3646661c219f35a3a439f2a47",
+      "Layla_Classic-Malefic=legend-nexus-sea": "https:\/\/download5025.sfile.mobi\/downloadfile\/2120088\/734426\/ca16453bea358c3b9ae25bdb5b2125c0\/update-layla-legend-nexus-sea-classic.zip?k=d467a5af8bc68eb405f0519c3d4dff3e",
+      "Layla_Bunny-Babe=legend-nexus-sea": "https:\/\/download5025.sfile.mobi\/downloadfile\/2120091\/734426\/a33a771952f6e67a242e4a6083c3e8a3\/update-layla-legend-nexus-sea-old-starlight.zip?k=f01534f6d50a19a8d4a87a4334fd4aaa : https:\/\/sfile.mobi\/download\/2120091\/734426\/a33a771952f6e67a242e4a6083c3e8a3\/update-layla-legend-nexus-sea-old-starlight.zip?is=978897941ce1957f9b8e22621a6c78da&k=f01534f6d50a19a8d4a87a4334fd4aaa",
+      "Layla_Blazing=legend-nexus-sea": "https:\/\/download5025.sfile.mobi\/downloadfile\/2120084\/734426\/02d92156cb920926618b454c62dff3f4\/update-layla-legend-nexus-sea-blazing.zip?k=11ab6feeb3c969ac54998dbb1a503c6a : https:\/\/sfile.mobi\/download\/2120084\/734426\/02d92156cb920926618b454c62dff3f4\/update-layla-legend-nexus-sea-blazing.zip?is=06f8bad7a184ef5ea0367ef5839a9599&k=11ab6feeb3c969ac54998dbb1a503c6a",
+      "Layla_SABER=legend-nexus-sea": "https:\/\/download5025.sfile.mobi\/downloadfile\/2120092\/734426\/aed996e27d516fd163c4df7acf231111\/update-layla-legend-nexus-sea-saber.zip?k=628e4287baf8a9e1b8983b8dc04d794d : https:\/\/sfile.mobi\/download\/2120092\/734426\/aed996e27d516fd163c4df7acf231111\/update-layla-legend-nexus-sea-saber.zip?is=06f8bad7a184ef5ea0367ef5839a9599&k=628e4287baf8a9e1b8983b8dc04d794d",
+      "Layla_Valentine=legend-nexus-sea": "https:\/\/download5025.sfile.mobi\/downloadfile\/2120093\/734426\/0bb7303c1a45dbf5c2727cce6d3b2db6\/update-layla-legend-nexus-sea-valentine.zip?k=010c31a72066cf617b4458ac643c2651 : https:\/\/sfile.mobi\/download\/2120093\/734426\/0bb7303c1a45dbf5c2727cce6d3b2db6\/update-layla-legend-nexus-sea-valentine.zip?is=06f8bad7a184ef5ea0367ef5839a9599&k=010c31a72066cf617b4458ac643c2651",
+      "Layla_Starlight=legend-nexus-sea": "https:\/\/download5025.sfile.mobi\/downloadfile\/2120090\/734426\/875940ac026143254e96a592fef98377\/update-layla-legend-nexus-sea-new-starlight.zip?k=99a3ad655e41c69b514d80344d84b11a : https:\/\/sfile.mobi\/download\/2120090\/734426\/875940ac026143254e96a592fef98377\/update-layla-legend-nexus-sea-new-starlight.zip?is=06f8bad7a184ef5ea0367ef5839a9599&k=99a3ad655e41c69b514d80344d84b11a",
+      "Layla_Blue-Spectre=legend-nexus-sea": "https:\/\/download5025.sfile.mobi\/downloadfile\/2120085\/734426\/aace4ec7ea2da7f3f04a4c4777ab3896\/update-layla-legend-nexus-sea-blue-spectre.zip?k=fd857e169f48c115099d72271253b945 : https:\/\/sfile.mobi\/download\/2120085\/734426\/aace4ec7ea2da7f3f04a4c4777ab3896\/update-layla-legend-nexus-sea-blue-spectre.zip?is=06f8bad7a184ef5ea0367ef5839a9599&k=fd857e169f48c115099d72271253b945",
+      "Layla_Aspirants=legend-nexus-sea": "https:\/\/download5025.sfile.mobi\/downloadfile\/2120082\/734426\/4c59b7719d8c01a9f39f3ac9a2335df7\/update-layla-legend-nexus-sea-aspirants.zip?k=0d90e604aba039014f1a7614c50ae869 : https:\/\/sfile.mobi\/download\/2120082\/734426\/4c59b7719d8c01a9f39f3ac9a2335df7\/update-layla-legend-nexus-sea-aspirants.zip?is=06f8bad7a184ef5ea0367ef5839a9599&k=0d90e604aba039014f1a7614c50ae869",
+      "Layla_Collector=legend-nexus-sea": "https:\/\/download5025.sfile.mobi\/downloadfile\/2120087\/734426\/1c7ab0f806faec189ee4fd9d9fbfb222\/update-layla-legend-nexus-sea-collector.zip?k=a032143abda2d3ea3e363fd53f7f74b2 : https:\/\/sfile.mobi\/download\/2120087\/734426\/1c7ab0f806faec189ee4fd9d9fbfb222\/update-layla-legend-nexus-sea-collector.zip?is=06f8bad7a184ef5ea0367ef5839a9599&k=a032143abda2d3ea3e363fd53f7f74b2",
+              
+      
+      //####################################################################################################################
+      //####################################################################################################################
+      
       // Tambahkan lagi di sini sesuai postingan kamu....
       
     }
