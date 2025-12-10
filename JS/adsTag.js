@@ -1,5 +1,4 @@
- <script type="text/javascript" charset="utf-8">
-   
+
     setTimeout(() => {
       
       // Adsterra - sosial bar
@@ -40,4 +39,3 @@
       
 
     }, 1000);
-  </script>
