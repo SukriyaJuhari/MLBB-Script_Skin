@@ -6,57 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wait..Downloading</title>
 
-  <script type="text/javascript" charset="utf-8">
-    setTimeout(() => {
-      
-      // Adsterra
-      let s1 = document.createElement("script");
-      s1.src = "//pl28110890.effectivegatecpm.com/76/21/02/7621028dfbf3b2a5f1351e92fc067d43.js";
-      document.body.appendChild(s1);
-      
-      // Adsterra - sosial bar
-      let s2 = document.createElement("script");
-      s2.src = "//pl28110890.effectivegatecpm.com/76/21/02/7621028dfbf3b2a5f1351e92fc067d43.js";
-      document.body.appendChild(s1);
-      
-      // Monetag — Interstitial
-      (function(s) {
-        s.dataset.zone = '10219839';
-        s.src = 'https://groleegni.net/vignette.min.js';
-      })(document.body.appendChild(document.createElement('script')));
-      
-      // Monetag — In-Page Push
-      (function(s) {
-        s.dataset.zone = '10219937';
-        s.src = 'https://nap5k.com/tag.min.js';
-      })(document.body.appendChild(document.createElement('script')));
-      
-      // Monetag — Vignette Banner
-      (function(s) {
-        s.dataset.zone = '10219940';
-        s.src = 'https://gizokraijaw.net/vignette.min.js';
-      })(document.body.appendChild(document.createElement('script')));
-      
-      /* Monetag pop-up agresif multi ads
-      let s = document.createElement("script");
-      s.src = "https://quge5.com/88/tag.min.js";
-      s.dataset.zone = "187166";
-      s.async = true;
-      s.setAttribute("data-cfasync", "false");
-      document.head.appendChild(s);
-      */
-      
-      // AdSense
-      let g = document.createElement("script");
-      g.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5527962581069268";
-      g.async = true;
-      g.crossorigin = "anonymous";
-      document.head.appendChild(g);
-      
-    }, 100);
-  </script>
-  
-  
+<script type="module" src="https://cdn.jsdelivr.net/gh/SukriyaJuhari/MLBB-Script_Skin/JS/pageAds.js?=new">
+  //ads tag
+</script>
   
   <style>
     :root {
@@ -189,10 +141,9 @@
   
   <div class="container">
     <div class="cardfile">
-      <div class="fileName">...</div>
-      <p>Tunggu beberapa detik...<br>
-        file hanya di halaman ini lainnya iklan! jika kamu dialihkan kembali ke halaman ini
-      <div class="countdown" id="timer">...</div>
+      <div class="fileName"></div>
+      <div class="notif"></div>
+      <div class="countdown" id="timer"></div>
     </div>
     
     
@@ -267,23 +218,21 @@
     const fileKey = urlParams.get('file');
     const targetURL = fileLinks[fileKey];
     
-    // SMARTLINK 
-    const smartLink_1 = "https://www.effectivegatecpm.com/c2adnz3q?key=3e421ae60970168cf611efdc680a0659";
-    const smartLink_2 = "https://otieu.com/4/10220378";
-    
     const timer = document.getElementById("timer");
     const btn = document.getElementById("downloadBtn");
     
     // urutan click 
     let click_1 = true;
-    let click_2 = true;
     
     
     if (targetURL) {
       
       document.querySelector(".fileName").innerHTML = `
     Menyiapkan file ${fileKey}.zip`;
-      
+      document.querySelector(".notif").innerHTML = `
+      <p>Tunggu beberapa detik...<br>
+        file hanya di halaman ini lainnya iklan! jika kamu dialihkan kembali ke halaman ini
+      `;
       
       let seconds = 20;
       //let seconds = 1;//debugging
@@ -307,7 +256,7 @@
           
           btn.innerHTML = `
         <b style="text-align:center;">
-          <b style="color:#f1c40f;">(2)<br></b> Download Now
+          <b style="color:#f1c40f;"></b> Download Now
         </b>`;
         }
         
@@ -319,31 +268,7 @@
         e.preventDefault();
         
         if (click_1) {
-          
-          // Klik kedua → buka SMARTLINK kedua
-          window.open(smartLink_1, "_blank");
           click_1 = false;
-          const wait_1 = setInterval(() => {
-            waitTime--;
-            btn.textContent = `Wait... ${waitTime}`;
-            
-            if (waitTime <= 0) {
-              clearInterval(wait_1);
-              waitTime = 8
-              btn.innerHTML = `
-            <b style="text-align:center;">
-              <b style="color:#f1c40f;">(1)<br></b> Download Now
-            </b>`;
-            }
-            
-          }, 1000);
-          
-          //Klik ke 4 > File Download 
-        } else if (click_2) {
-          
-          // Klik kedua → buka SMARTLINK kedua
-          window.open(smartLink_2, "_blank");
-          click_2 = false;
           
           const wait_2 = setInterval(() => {
             waitTime--;
@@ -367,8 +292,8 @@
     } else {
       
       // Jika file tidak ditemukan
-      document.querySelector(".container").innerHTML = `
-      <h3 style="color:#343435;">Script Skin Tidak Ditemukan 😢</h3>
+      document.querySelector(".notif").innerHTML = `
+      <h3 style="color:#343435;">File Tidak Ditemukan 😢</h3>
     `;
     }
   </script>
