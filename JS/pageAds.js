@@ -35,4 +35,4 @@ setTimeout(() => {
     s.src = 'https://gizokraijaw.net/vignette.min.js';
   })(document.body.appendChild(document.createElement('script')));
 
-}, 1000);
+}, 2000);
