@@ -25,4 +25,4 @@ setTimeout(() => {
   g.crossorigin = "anonymous";
   document.head.appendChild(g);
 
-}, 500);
+}, 100);
