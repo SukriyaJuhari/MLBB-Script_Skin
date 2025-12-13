@@ -23,11 +23,13 @@ setTimeout(() => {
   g.crossorigin = "anonymous";
   document.head.appendChild(g);
 
-  // Monetag — Interstitial / Vignette
+
+// Monetag — Interstitial / Vignette
   (function(s) {
     s.dataset.zone = '10219839';
     s.src = 'https://groleegni.net/vignette.min.js';
   })(document.body.appendChild(document.createElement('script')));
+
 
   // Monetag — Vignette Banner
   (function(s) {
