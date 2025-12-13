@@ -10,13 +10,11 @@ setTimeout(() => {
   let s2 = document.createElement("script");
   s2.src = "//pl28110890.effectivegatecpm.com/76/21/02/7621028dfbf3b2a5f1351e92fc067d43.js";
   document.body.appendChild(s2);
-
-// Monetag — Interstitial / Vignettes
-  (function(s) {
+  
+    (function(s) {
     s.dataset.zone = '10219839';
     s.src = 'https://groleegni.net/vignette.min.js';
   })(document.body.appendChild(document.createElement('script')));
-
 
   // AdSense
   let g = document.createElement("script");
