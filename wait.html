@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wait..Downloading</title>
   <script type="module" src="https://cdn.jsdelivr.net/gh/SukriyaJuhari/MLBB-Script_Skin/pageAds.js?=new">
-  //ads tag
+    //ads tag
   </script>
   
   
@@ -204,106 +204,110 @@
   </div>
   
   
-
   
   
   
-
+  
+  
   <script type="module">
     // 🧠 Daftar file download berdasarkan kode "file="
     //debugging
-    //import dataFileLinks from "/JS/dataFileLinks.js";
-    import dataFileLinks from "https://cdn.jsdelivr.net/gh/SukriyaJuhari/MLBB-Script_Skin/dataFileLinks.js?=new";
+    const version = Date.now();
     
-    const fileLink = new dataFileLinks();
-    const fileLinks = fileLink.link;
-    //console.log(fileLink);
-    // Ambil parameter ?file= dari URL
-    const urlParams = new URLSearchParams(window.location.search);
-    const fileKey = urlParams.get('file');
-    const targetURL = fileLinks[fileKey];
-    
-    const timer = document.getElementById("timer");
-    const btn = document.getElementById("downloadBtn");
-    
-    // urutan click 
-    let click_1 = true;
-    
-    
-    if (targetURL) {
-      
-      document.querySelector(".fileName").innerHTML = `
+    import(`https://cdn.jsdelivr.net/gh/SukriyaJuhari/MLBB-Script_Skin/dataFileLinks.js?v=${version}`)
+      .then(module => {
+        const dataFileLinks = module.default;
+        
+        const fileLink = new dataFileLinks();
+        const fileLinks = fileLink.link;
+        //console.log(fileLink);
+        // Ambil parameter ?file= dari URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const fileKey = urlParams.get('file');
+        const targetURL = fileLinks[fileKey];
+        
+        const timer = document.getElementById("timer");
+        const btn = document.getElementById("downloadBtn");
+        
+        // urutan click 
+        let click_1 = true;
+        
+        
+        if (targetURL) {
+          
+          document.querySelector(".fileName").innerHTML = `
     Menyiapkan file ${fileKey}.zip`;
-      document.querySelector(".notif").innerHTML = `
+          document.querySelector(".notif").innerHTML = `
       <p>Tunggu beberapa detik...<br>
         file hanya di halaman ini lainnya iklan! jika kamu dialihkan kembali ke halaman ini
       `;
-      
-      let seconds = 20;
-      //let seconds = 1;//debugging
-      let waitTime = 8; //time Tombo download 
-      // let waitTime = 1; //debugging
-      
-      
-      const countdown = setInterval(() => {
-        seconds--;
-        timer.textContent = seconds;
-        
-        if (seconds <= 0) {
-          clearInterval(countdown);
           
-          // Aktifkan tombol download
-          btn.style.display = "inline-block";
+          let seconds = 20;
+          //let seconds = 1;//debugging
+          let waitTime = 8; //time Tombo download 
+          // let waitTime = 1; //debugging
           
-          document.querySelector(".countdown").innerHTML = `
+          
+          const countdown = setInterval(() => {
+            seconds--;
+            timer.textContent = seconds;
+            
+            if (seconds <= 0) {
+              clearInterval(countdown);
+              
+              // Aktifkan tombol download
+              btn.style.display = "inline-block";
+              
+              document.querySelector(".countdown").innerHTML = `
         Skroll ke bawah Klik tombol (Download Now)
       `;
-          
-          btn.innerHTML = `
+              
+              btn.innerHTML = `
         <b style="text-align:center;">
           <b style="color:#f1c40f;"></b> Download Now
         </b>`;
-        }
-        
-      }, 1000);
-      
-      
-      // Logika klik tombol
-      btn.addEventListener("click", function(e) {
-        e.preventDefault();
-        
-        if (click_1) {
-          click_1 = false;
-          
-          const wait_2 = setInterval(() => {
-            waitTime--;
-            btn.textContent = `Wait... ${waitTime}`;
-            
-            if (waitTime <= 0) {
-              clearInterval(wait_2);
-              btn.textContent = "Download File";
             }
             
           }, 1000);
           
+          
+          // Logika klik tombol
+          btn.addEventListener("click", function(e) {
+            e.preventDefault();
+            
+            if (click_1) {
+              click_1 = false;
+              
+              const wait_2 = setInterval(() => {
+                waitTime--;
+                btn.textContent = `Wait... ${waitTime}`;
+                
+                if (waitTime <= 0) {
+                  clearInterval(wait_2);
+                  btn.textContent = "Download File";
+                }
+                
+              }, 1000);
+              
+            } else {
+              
+              // Klik ketiga → download file
+              window.location.href = targetURL;
+            }
+            
+          });
+          
         } else {
           
-          // Klik ketiga → download file
-          window.location.href = targetURL;
-        }
-        
-      });
-      
-    } else {
-      
-      // Jika file tidak ditemukan
-      document.querySelector(".notif").innerHTML = `
+          // Jika file tidak ditemukan
+          document.querySelector(".notif").innerHTML = `
       <h3 style="color:#343435;">File Tidak Ditemukan 😢</h3>
     `;
-    }
+        }
+      });
   </script>
-
-
+  
+  
   
   
 </body>
