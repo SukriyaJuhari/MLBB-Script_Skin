@@ -145,6 +145,16 @@ export default class dataFileLinks {
       //####################################################################################################################
       //####################################################################################################################
       
+      "Thamuz_Default=Nexus-Sea": "https://sfile.mobi/download/2095267/734426/d27bcbcea111be8f6f8a3b3f95e288cc/new-update-thamuz-nexus-sea-default.zip?is=f24ccdcb83866f95c61ef89247f1f0c8&k=43f4421e10a090d8500f8ef3d389f362",
+      "Thamuz_Basic=Nexus-Sea": "https://sfile.mobi/download/2095266/734426/77480ae4276eb0318ec02487482fb3ef/new-update-thamuz-nexus-sea-basic.zip?is=f24ccdcb83866f95c61ef89247f1f0c8&k=35d98a90457acc797b006c60b6481bc4",
+      "Thamuz_Elite=Nexus-Sea": "https:\/\/sfile.mobi\/download\/2095270\/734426\/46929062ddd07e1fcb1b1ef0b1ee6850\/new-update-thamuz-nexus-sea-elite.zip?is=f24ccdcb83866f95c61ef89247f1f0c8&k=af2444c28ce9412d77013fec1ceeb4ec",
+      "Thamuz_Special=Nexus-Sea": "https:\/\/sfile.mobi\/download\/2095273\/734426\/7f6e032c7ce87e831e0108e246ad2337\/new-update-thamuz-nexus-sea-special.zip?is=f24ccdcb83866f95c61ef89247f1f0c8&k=748cf32f19e8097ab4545941ab4a6200",
+      "Thamuz_Starlight=Nexus-Sea": "https:\/\/sfile.mobi\/download\/2095274\/734426\/2daffdbec581ce650857944c8096053c\/new-update-thamuz-nexus-sea-starlight.zip?is=f24ccdcb83866f95c61ef89247f1f0c8&k=12f6e8435319a3b518972f61f0d9bda1",
+      "Thamuz_Kungfu-Panda=Nexus-Sea": "https:\/\/sfile.mobi\/download\/2095271\/734426\/84ead62af2890686e09cc82e6400dede\/new-update-thamuz-nexus-sea-kungfu-panda.zip?is=81485b540b7e91dcb8fdc4043f797183&k=b5dd4b0482fba3e64c022d211774db7d",
+      
+      //####################################################################################################################
+      //####################################################################################################################
+    
       // Tambahkan lagi di sini sesuai postingan kamu....
       
     }

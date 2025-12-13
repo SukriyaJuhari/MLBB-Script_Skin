@@ -4,41 +4,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script type="module" src="https://cdn.jsdelivr.net/gh/SukriyaJuhari/MLBB-Script_Skin/JS/postAds.js?=new">
-    //ads tag
+   <title>Script Skin Thamuz Nexus Sea</title>
+
+  <script type="module" src="https://cdn.jsdelivr.net/gh/SukriyaJuhari/MLBB-Script_Skin/postAds.js?=new">
+  //ads tag
   </script>
-  <title>Script Skin Layla legend nexus sea</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/SukriyaJuhari/MLBB-Script_Skin/PostStyle.css">
+
 </head>
 
-<body >
-  <iframe 
-  src="https://sukriyajuhari.github.io/MLBB-Script_Skin/wait.html"
-  style="width:100%;min-height:70vh;border:0;">
-    
-  </iframe>
-<img style="display: none;" src="https://cdn.jsdelivr.net/gh/SukriyaJuhari/MLBB-Script_Skin/img/legend-nexus-sea.jpg?=new" alt="Hero Icon" loading="lazy">
+
+<body>
+  <div class="container">
+    <div>
+      <h2 class="fileName"></h2>
+      <p class="desc">Pilih jenis skin lalu klik "Download"</p>
+    </div>
+    <div class="head">
       
+      
+      <img class="hero-icon heroImg" src="./Fanny_AttackOnTitan.jpg" alt="Hero Icon" loading="lazy">
+      
+      
+    </div>
+    
+    <div class="card">
+      <div class="meta">
+        <div class="name metaName"></div>
+        
+        <div style="margin-bottom:15px;">
+          <label for="skinSelect" style="font-size:13px;color:#555;">Pilih Replace:</label>
+          <select class="skinSelect"></select>
+        </div>
+        
+        <div class="sub">
+          <span>Ukuran: <strong class="metaSize"></strong></span>
+          <span>Tanggal: <strong class="metaDate"></strong></span>
+        </div>
+      </div>
+      <a class="downloadLink btn download" href="#" target="_top">Download</a>
+    </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  </div>
+  
 
 
 
@@ -61,7 +70,37 @@
       ✅ Setelah selesai, buka Mobile Legends dan nikmati Skin Script-nya!
     </p>
 
+
+
+
       
+  <script type="module">
+    import PostInjectContent from "./PostInjectContent.js";
+    
+    const rootData = {
+      nameHero: "Thamuz",
+      skinKategor: "Nexus-Sea",
+      fileName: "Script Skin Thamuz Nexus-Sea",
+      fileType: "zip",
+      fileDate: "13-DES-2025",
+      //debugging
+      //baseDownloadUrl: "/HTML/wait.html?file",
+      baseDownloadUrl: "https://skripinaja.blogspot.com/p/wait.html?file",
+      options: [
+        { name: "Default", value: "Default", size: "32.80 MB", selected: true },
+        { name: "Basic", value: "Basic", size: "31.66 MB"},
+        { name: "Elite", value: "Elite", size: "29.91 MB" },
+        { name: "Special", value: "Special", size: "31.07 MB"},
+        { name: "Starlight", value: "Starlight", size: "30.88 MB"},
+        { name: "Kungfu-Panda", value: "Kungfu-Panda", size: "39.04 MB"},
+
+//  { name: "", value: "", size: ""},
+      ]
+    };
+    
+    new PostInjectContent(rootData);
+  </script>
+  
 </body>
 
 </html>
