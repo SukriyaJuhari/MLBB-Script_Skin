@@ -109,7 +109,7 @@ export default class dataFileLinks {
       //================================================================================================================================
       
       //Harith_Killua_HxH
-      "Harith_Default=Killua_HxH": "https://drive.google.com/file/d/1Mv3E8WrvIKn-knAkkjwGxhcy--0hVmCz/view?usp=drivesdk",
+      "Harith_Default=Killua_HxH": "https:\/\/download5125.sfile.mobi\/downloadfile\/2087227\/734426\/1dff7181947c5f6576d56975fe3578c8\/fix-update-harith-killua-default.zip?k=d4a85622b595f88301b42ecfb65a0fd0 : https:\/\/sfile.mobi\/download\/2087227\/734426\/1dff7181947c5f6576d56975fe3578c8\/fix-update-harith-killua-default.zip?is=cd8d2163ac4d2b1e6650f0aa3bb9af81&k=d4a85622b595f88301b42ecfb65a0fd0",
       "Harith_Basic=Killua_HxH": "https://drive.google.com/file/d/1b2mUEsqDAgodNsRHPhw8ZhaftMxkv3Ff/view?usp=drivesdk",
       "Harith_Elite=Killua_HxH": "https://drive.google.com/file/d/1wFEj3kTL69rIiKWywoJtr1jv_D6UqRxX/view?usp=drivesdk",
       "Harith_515=Killua_HxH": "https://drive.google.com/file/d/1C7N772XdyTQsLjfOUejNaB2aiX7-tO21/view?usp=drivesdk",
