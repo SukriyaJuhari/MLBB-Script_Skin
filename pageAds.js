@@ -1,6 +1,6 @@
 
   
-  /*
+  
   //Monetag pop-up agresif multi ads
   let ss = document.createElement("script");
   ss.src = "https://quge5.com/88/tag.min.js";
@@ -8,13 +8,14 @@
   ss.async = true;
   ss.setAttribute("data-cfasync", "false");
   document.head.appendChild(ss);
-  */
+  
   
   // Monetag — In-Page Push
   (function(s1) {
     s1.dataset.zone = '10219937';
     s1.src = 'https://nap5k.com/tag.min.js';
   })(document.body.appendChild(document.createElement('script')));
+  
   
   // Adsterra - Sosial Bar
   let s2 = document.createElement("script");
@@ -35,31 +36,6 @@
     s4.src = 'https://gizokraijaw.net/vignette.min.js';
   })(document.body.appendChild(document.createElement('script')));
   
-    // Monetag — Interstitial / Vignette
-  (function(s5) {
-    s3.dataset.zone = '10219839';
-    s3.src = 'https://groleegni.net/vignette.min.js';
-  })(document.body.appendChild(document.createElement('script')));
-  
-  
-  // Monetag — Vignette Banner
-  (function(s6) {
-    s4.dataset.zone = '10219940';
-    s4.src = 'https://gizokraijaw.net/vignette.min.js';
-  })(document.body.appendChild(document.createElement('script')));
-  
-    // Monetag — Interstitial / Vignette
-  (function(s7) {
-    s3.dataset.zone = '10219839';
-    s3.src = 'https://groleegni.net/vignette.min.js';
-  })(document.body.appendChild(document.createElement('script')));
-  
-  
-  // Monetag — Vignette Banner
-  (function(s8) {
-    s4.dataset.zone = '10219940';
-    s4.src = 'https://gizokraijaw.net/vignette.min.js';
-  })(document.body.appendChild(document.createElement('script')));
   
   
   // AdSense
